@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B09A9241919FD7E00BC2D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B09A9231919FD7E00BC2D34 /* Foundation.framework */; };
+		9B09A9261919FD7E00BC2D34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B09A9251919FD7E00BC2D34 /* CoreGraphics.framework */; };
+		9B09A9281919FD7E00BC2D34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B09A9271919FD7E00BC2D34 /* UIKit.framework */; };
+		9B09A92E1919FD7E00BC2D34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B09A92C1919FD7E00BC2D34 /* InfoPlist.strings */; };
+		9B09A9301919FD7E00BC2D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09A92F1919FD7E00BC2D34 /* main.m */; };
+		9B09A9341919FD7E00BC2D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09A9331919FD7E00BC2D34 /* AppDelegate.m */; };
+		9B09A9371919FD7E00BC2D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B09A9351919FD7E00BC2D34 /* Main.storyboard */; };
+		9B09A93A1919FD7E00BC2D34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09A9391919FD7E00BC2D34 /* ViewController.m */; };
+		9B09A93C1919FD7E00BC2D34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B09A93B1919FD7E00BC2D34 /* Images.xcassets */; };
+		9B09A9431919FD7E00BC2D34 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B09A9421919FD7E00BC2D34 /* XCTest.framework */; };
+		9B09A9441919FD7E00BC2D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B09A9231919FD7E00BC2D34 /* Foundation.framework */; };
+		9B09A9451919FD7E00BC2D34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B09A9271919FD7E00BC2D34 /* UIKit.framework */; };
+		9B09A94D1919FD7E00BC2D34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B09A94B1919FD7E00BC2D34 /* InfoPlist.strings */; };
+		9B09A94F1919FD7E00BC2D34 /* DittoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09A94E1919FD7E00BC2D34 /* DittoTests.m */; };
+		9B09A95C1919FD9000BC2D34 /* DITLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09A9591919FD9000BC2D34 /* DITLabel.m */; };
+		9B09A95D1919FD9000BC2D34 /* DITTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09A95B1919FD9000BC2D34 /* DITTableViewController.m */; };
+		9B09A960191A02C100BC2D34 /* DITController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09A95F191A02C100BC2D34 /* DITController.m */; };
+		9B09A962191A036200BC2D34 /* Red.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B09A961191A036200BC2D34 /* Red.storyboard */; };
+		9B09A964191A036D00BC2D34 /* Blue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B09A963191A036D00BC2D34 /* Blue.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B09A9461919FD7E00BC2D34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B09A9181919FD7E00BC2D34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B09A91F1919FD7E00BC2D34;
+			remoteInfo = Ditto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B09A9201919FD7E00BC2D34 /* Ditto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ditto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B09A9231919FD7E00BC2D34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B09A9251919FD7E00BC2D34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B09A9271919FD7E00BC2D34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B09A92B1919FD7E00BC2D34 /* Ditto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ditto-Info.plist"; sourceTree = "<group>"; };
+		9B09A92D1919FD7E00BC2D34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B09A92F1919FD7E00BC2D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B09A9311919FD7E00BC2D34 /* Ditto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ditto-Prefix.pch"; sourceTree = "<group>"; };
+		9B09A9321919FD7E00BC2D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B09A9331919FD7E00BC2D34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B09A9361919FD7E00BC2D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B09A9381919FD7E00BC2D34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B09A9391919FD7E00BC2D34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B09A93B1919FD7E00BC2D34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B09A9411919FD7E00BC2D34 /* DittoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DittoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B09A9421919FD7E00BC2D34 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9B09A94A1919FD7E00BC2D34 /* DittoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DittoTests-Info.plist"; sourceTree = "<group>"; };
+		9B09A94C1919FD7E00BC2D34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B09A94E1919FD7E00BC2D34 /* DittoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoTests.m; sourceTree = "<group>"; };
+		9B09A9581919FD9000BC2D34 /* DITLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DITLabel.h; sourceTree = "<group>"; };
+		9B09A9591919FD9000BC2D34 /* DITLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DITLabel.m; sourceTree = "<group>"; };
+		9B09A95A1919FD9000BC2D34 /* DITTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DITTableViewController.h; sourceTree = "<group>"; };
+		9B09A95B1919FD9000BC2D34 /* DITTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DITTableViewController.m; sourceTree = "<group>"; };
+		9B09A95E191A02C100BC2D34 /* DITController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DITController.h; sourceTree = "<group>"; };
+		9B09A95F191A02C100BC2D34 /* DITController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DITController.m; sourceTree = "<group>"; };
+		9B09A961191A036200BC2D34 /* Red.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Red.storyboard; sourceTree = "<group>"; };
+		9B09A963191A036D00BC2D34 /* Blue.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Blue.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B09A91D1919FD7E00BC2D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B09A9261919FD7E00BC2D34 /* CoreGraphics.framework in Frameworks */,
+				9B09A9281919FD7E00BC2D34 /* UIKit.framework in Frameworks */,
+				9B09A9241919FD7E00BC2D34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B09A93E1919FD7E00BC2D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B09A9431919FD7E00BC2D34 /* XCTest.framework in Frameworks */,
+				9B09A9451919FD7E00BC2D34 /* UIKit.framework in Frameworks */,
+				9B09A9441919FD7E00BC2D34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B09A9171919FD7E00BC2D34 = {
+			isa = PBXGroup;
+			children = (
+				9B09A9291919FD7E00BC2D34 /* Ditto */,
+				9B09A9481919FD7E00BC2D34 /* DittoTests */,
+				9B09A9221919FD7E00BC2D34 /* Frameworks */,
+				9B09A9211919FD7E00BC2D34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B09A9211919FD7E00BC2D34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B09A9201919FD7E00BC2D34 /* Ditto.app */,
+				9B09A9411919FD7E00BC2D34 /* DittoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B09A9221919FD7E00BC2D34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B09A9231919FD7E00BC2D34 /* Foundation.framework */,
+				9B09A9251919FD7E00BC2D34 /* CoreGraphics.framework */,
+				9B09A9271919FD7E00BC2D34 /* UIKit.framework */,
+				9B09A9421919FD7E00BC2D34 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B09A9291919FD7E00BC2D34 /* Ditto */ = {
+			isa = PBXGroup;
+			children = (
+				9B09A9321919FD7E00BC2D34 /* AppDelegate.h */,
+				9B09A9331919FD7E00BC2D34 /* AppDelegate.m */,
+				9B09A9351919FD7E00BC2D34 /* Main.storyboard */,
+				9B09A961191A036200BC2D34 /* Red.storyboard */,
+				9B09A963191A036D00BC2D34 /* Blue.storyboard */,
+				9B09A9381919FD7E00BC2D34 /* ViewController.h */,
+				9B09A9391919FD7E00BC2D34 /* ViewController.m */,
+				9B09A95E191A02C100BC2D34 /* DITController.h */,
+				9B09A95F191A02C100BC2D34 /* DITController.m */,
+				9B09A9581919FD9000BC2D34 /* DITLabel.h */,
+				9B09A9591919FD9000BC2D34 /* DITLabel.m */,
+				9B09A95A1919FD9000BC2D34 /* DITTableViewController.h */,
+				9B09A95B1919FD9000BC2D34 /* DITTableViewController.m */,
+				9B09A93B1919FD7E00BC2D34 /* Images.xcassets */,
+				9B09A92A1919FD7E00BC2D34 /* Supporting Files */,
+			);
+			path = Ditto;
+			sourceTree = "<group>";
+		};
+		9B09A92A1919FD7E00BC2D34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B09A92B1919FD7E00BC2D34 /* Ditto-Info.plist */,
+				9B09A92C1919FD7E00BC2D34 /* InfoPlist.strings */,
+				9B09A92F1919FD7E00BC2D34 /* main.m */,
+				9B09A9311919FD7E00BC2D34 /* Ditto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B09A9481919FD7E00BC2D34 /* DittoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B09A94E1919FD7E00BC2D34 /* DittoTests.m */,
+				9B09A9491919FD7E00BC2D34 /* Supporting Files */,
+			);
+			path = DittoTests;
+			sourceTree = "<group>";
+		};
+		9B09A9491919FD7E00BC2D34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B09A94A1919FD7E00BC2D34 /* DittoTests-Info.plist */,
+				9B09A94B1919FD7E00BC2D34 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B09A91F1919FD7E00BC2D34 /* Ditto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B09A9521919FD7E00BC2D34 /* Build configuration list for PBXNativeTarget "Ditto" */;
+			buildPhases = (
+				9B09A91C1919FD7E00BC2D34 /* Sources */,
+				9B09A91D1919FD7E00BC2D34 /* Frameworks */,
+				9B09A91E1919FD7E00BC2D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ditto;
+			productName = Ditto;
+			productReference = 9B09A9201919FD7E00BC2D34 /* Ditto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B09A9401919FD7E00BC2D34 /* DittoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B09A9551919FD7E00BC2D34 /* Build configuration list for PBXNativeTarget "DittoTests" */;
+			buildPhases = (
+				9B09A93D1919FD7E00BC2D34 /* Sources */,
+				9B09A93E1919FD7E00BC2D34 /* Frameworks */,
+				9B09A93F1919FD7E00BC2D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B09A9471919FD7E00BC2D34 /* PBXTargetDependency */,
+			);
+			name = DittoTests;
+			productName = DittoTests;
+			productReference = 9B09A9411919FD7E00BC2D34 /* DittoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B09A9181919FD7E00BC2D34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Toyship.org;
+				TargetAttributes = {
+					9B09A9401919FD7E00BC2D34 = {
+						TestTargetID = 9B09A91F1919FD7E00BC2D34;
+					};
+				};
+			};
+			buildConfigurationList = 9B09A91B1919FD7E00BC2D34 /* Build configuration list for PBXProject "Ditto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B09A9171919FD7E00BC2D34;
+			productRefGroup = 9B09A9211919FD7E00BC2D34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B09A91F1919FD7E00BC2D34 /* Ditto */,
+				9B09A9401919FD7E00BC2D34 /* DittoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B09A91E1919FD7E00BC2D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B09A962191A036200BC2D34 /* Red.storyboard in Resources */,
+				9B09A93C1919FD7E00BC2D34 /* Images.xcassets in Resources */,
+				9B09A964191A036D00BC2D34 /* Blue.storyboard in Resources */,
+				9B09A92E1919FD7E00BC2D34 /* InfoPlist.strings in Resources */,
+				9B09A9371919FD7E00BC2D34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B09A93F1919FD7E00BC2D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B09A94D1919FD7E00BC2D34 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B09A91C1919FD7E00BC2D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B09A960191A02C100BC2D34 /* DITController.m in Sources */,
+				9B09A93A1919FD7E00BC2D34 /* ViewController.m in Sources */,
+				9B09A9341919FD7E00BC2D34 /* AppDelegate.m in Sources */,
+				9B09A95C1919FD9000BC2D34 /* DITLabel.m in Sources */,
+				9B09A95D1919FD9000BC2D34 /* DITTableViewController.m in Sources */,
+				9B09A9301919FD7E00BC2D34 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B09A93D1919FD7E00BC2D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B09A94F1919FD7E00BC2D34 /* DittoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B09A9471919FD7E00BC2D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B09A91F1919FD7E00BC2D34 /* Ditto */;
+			targetProxy = 9B09A9461919FD7E00BC2D34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B09A92C1919FD7E00BC2D34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B09A92D1919FD7E00BC2D34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B09A9351919FD7E00BC2D34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B09A9361919FD7E00BC2D34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B09A94B1919FD7E00BC2D34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B09A94C1919FD7E00BC2D34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B09A9501919FD7E00BC2D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B09A9511919FD7E00BC2D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B09A9531919FD7E00BC2D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
+				INFOPLIST_FILE = "Ditto/Ditto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B09A9541919FD7E00BC2D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
+				INFOPLIST_FILE = "Ditto/Ditto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9B09A9561919FD7E00BC2D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ditto.app/Ditto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DittoTests/DittoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9B09A9571919FD7E00BC2D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ditto.app/Ditto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
+				INFOPLIST_FILE = "DittoTests/DittoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B09A91B1919FD7E00BC2D34 /* Build configuration list for PBXProject "Ditto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B09A9501919FD7E00BC2D34 /* Debug */,
+				9B09A9511919FD7E00BC2D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B09A9521919FD7E00BC2D34 /* Build configuration list for PBXNativeTarget "Ditto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B09A9531919FD7E00BC2D34 /* Debug */,
+				9B09A9541919FD7E00BC2D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B09A9551919FD7E00BC2D34 /* Build configuration list for PBXNativeTarget "DittoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B09A9561919FD7E00BC2D34 /* Debug */,
+				9B09A9571919FD7E00BC2D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B09A9181919FD7E00BC2D34 /* Project object */;
+}
